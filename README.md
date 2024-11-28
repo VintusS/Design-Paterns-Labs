@@ -9,3 +9,6 @@ Made a simple coffee shop simulation that used the `Builder`, `Factory`, `Single
 
 ## [Lab 2 - Structural Patterns](https://github.com/VintusS/Design-Paterns-Labs/tree/main/StructuralPatterns)
 Modified the logic of the Lab 1 so that it will not rely that much on Creational Patterns, instead making more use of Structure Patterns to ensure better flexibility and scalability of the project. Used the `Decorator`, `Flyweight`, `Composite` and `Bridge` patterns to make the coffee easier to brew and add the posibility of making composite orders that have multiple items.
+
+## [Lab 3 - Behavioral Patterns](https://github.com/VintusS/Design-Paterns-Labs/tree/main/BehavioralPatterns)
+Structured the whole system in a single client and added a `StatefulEmployee` abstract class that allows creating derived classes, like the `Barista` class, which are employees that implement the State design pattern to make use of different behavior in special cases. 
